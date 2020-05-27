@@ -1,0 +1,17 @@
+[package]
+name = "macro-compose"
+version = "0.1.0"
+authors = ["Tom Dohrmann <erbse.13@gmx.de>"]
+edition = "2018"
+license = "WTFPL"
+repository = "https://github.com/Freax13/macro-compose"
+readme = "README.md"
+description = "macro-compose is a library trying to simplify and organize proc-macros"
+
+[dependencies]
+quote = "1.0"
+syn = "1.0"
+proc-macro2 = "1.0"
+
+[dev-dependencies]
+syn = { version = "1.0", features = ["full", "extra-traits"] }

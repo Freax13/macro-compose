@@ -1,0 +1,14 @@
+[package]
+name = "enum_from_str_macro"
+version = "0.1.0"
+authors = ["Tom Dohrmann <erbse.13@gmx.de>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1.0", features = ["full", "extra-traits"] }
+quote = "1.0"
+macro-compose = { path = "../../" }
+proc-macro2 = "1.0"
